@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.memoledger"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/start_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.memoledger" >
+        <activity
+            android:name="com.example.memoledger.HomepageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.memoledger.PersonalInformation"
+            android:exported="true" />
+        <activity
+            android:name="com.example.memoledger.ChangePassword"
+            android:exported="true" />
+        <activity
+            android:name="com.example.memoledger.ManageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.memoledger.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.memoledger.RecordActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.memoledger.SearchRecordActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.memoledger.NotebookActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.memoledger.LoginActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

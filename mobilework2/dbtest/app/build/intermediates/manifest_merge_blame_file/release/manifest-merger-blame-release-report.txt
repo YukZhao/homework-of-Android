@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dbtest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <queries>
+11-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:34:5-36:15
+12        <provider android:authorities="com.example.dbtest.CourseProvider" />
+12-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:35:9-76
+12-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:35:19-74
+13    </queries>
+14
+15    <permission
+15-->[androidx.core:core:1.9.0] E:\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.dbtest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.9.0] E:\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.9.0] E:\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.dbtest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.9.0] E:\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.9.0] E:\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:5:5-32:19
+22        android:allowBackup="true"
+22-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:6:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] E:\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:7:9-65
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:8:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:9:9-43
+28        android:label="@string/app_name"
+28-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:10:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:11:9-54
+30        android:supportsRtl="true"
+30-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:12:9-35
+31        android:theme="@style/Theme.Mobile2" >
+31-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:13:9-45
+32        <activity
+32-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:17:9-27:20
+33            android:name="com.example.dbtest.MainActivity"
+33-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:18:13-41
+34            android:exported="true" >
+34-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:19:13-36
+35            <intent-filter>
+35-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:20:13-23:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:21:17-69
+36-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:21:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:22:17-77
+38-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:22:27-74
+39            </intent-filter>
+40
+41            <meta-data
+41-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:24:13-26:36
+42                android:name="android.app.lib_name"
+42-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:25:17-52
+43                android:value="" />
+43-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:26:17-33
+44        </activity>
+45
+46        <provider
+46-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:28:9-31:40
+47            android:name="com.example.dbtest.CourseProvider"
+47-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:29:13-43
+48            android:authorities="com.example.dbtest.CourseProvider"
+48-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:30:13-68
+49            android:exported="false" />
+49-->D:\Desktop\androidapp\dbtest\app\src\main\AndroidManifest.xml:31:13-37
+50        <provider
+50-->[androidx.emoji2:emoji2:1.2.0] E:\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.2.0] E:\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+52            android:authorities="com.example.dbtest.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.2.0] E:\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.2.0] E:\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.2.0] E:\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.2.0] E:\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.2.0] E:\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] E:\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] E:\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] E:\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+60        </provider>
+61    </application>
+62
+63</manifest>

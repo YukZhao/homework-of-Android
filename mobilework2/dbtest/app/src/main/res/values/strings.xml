@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">homework2</string>
+    <string name="prompt">请输入课程名</string>
+    <string name="header">zyk‘s 课程表</string>
+    <string name="add">添加课程</string>
+    <string name="delete">删除课程</string>
+    <string name="update">修改课程</string>
+</resources>

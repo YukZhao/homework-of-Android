@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.memoledger"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:6:5-49:19
+12        android:allowBackup="true"
+12-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] E:\.gradle\caches\transforms-3\09dce287f966ede6f56d2bc091f83727\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:9:9-54
+17        android:icon="@drawable/start_logo"
+17-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:10:9-44
+18        android:label="@string/app_name"
+18-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:11:9-41
+19        android:supportsRtl="true"
+19-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:12:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.memoledger" >
+21-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:13:9-48
+22        <activity
+22-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:15:9-17:40
+23            android:name="com.example.memoledger.HomepageActivity"
+23-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:16:13-67
+24            android:exported="false" />
+24-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:17:13-37
+25        <activity
+25-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:18:9-20:38
+26            android:name="com.example.memoledger.PersonalInformation"
+26-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:19:13-70
+27            android:exported="true" />
+27-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:20:13-36
+28        <activity
+28-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:21:9-23:38
+29            android:name="com.example.memoledger.ChangePassword"
+29-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:22:13-65
+30            android:exported="true" />
+30-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:23:13-36
+31        <activity
+31-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:24:9-26:40
+32            android:name="com.example.memoledger.ManageActivity"
+32-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:25:13-65
+33            android:exported="false" />
+33-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:26:13-37
+34        <activity
+34-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:27:9-29:39
+35            android:name="com.example.memoledger.RegisterActivity"
+35-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:28:13-67
+36            android:exported="true" />
+36-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:29:13-36
+37        <activity
+37-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:30:9-32:39
+38            android:name="com.example.memoledger.RecordActivity"
+38-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:31:13-65
+39            android:exported="true" />
+39-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:32:13-36
+40        <activity
+40-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:33:9-35:39
+41            android:name="com.example.memoledger.SearchRecordActivity"
+41-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:34:13-71
+42            android:exported="true" />
+42-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:35:13-36
+43        <activity
+43-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:36:9-38:39
+44            android:name="com.example.memoledger.NotebookActivity"
+44-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:37:13-67
+45            android:exported="true" />
+45-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:38:13-36
+46        <activity
+46-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:39:9-48:20
+47            android:name="com.example.memoledger.LoginActivity"
+47-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:40:13-64
+48            android:exported="true" >
+48-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:41:13-36
+49            <intent-filter>
+49-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:43:13-47:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:44:17-69
+50-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:44:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:46:17-77
+52-->D:\Desktop\androidapp\end_work\MemoLedger\app\src\main\AndroidManifest.xml:46:27-74
+53            </intent-filter>
+54        </activity>
+55    </application>
+56
+57</manifest>

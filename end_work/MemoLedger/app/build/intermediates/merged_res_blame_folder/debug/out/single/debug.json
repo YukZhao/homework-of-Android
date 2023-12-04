@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/layout_activity_user_info.xml.flat",
+        "source": "com.example.memoledger.app-main-7:/layout/activity_user_info.xml"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/layout_record_item_layout.xml.flat",
+        "source": "com.example.memoledger.app-main-7:/layout/record_item_layout.xml"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_password.png.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/password.png"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_in_shouzhi.jpg.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/in_shouzhi.jpg"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/layout_activity_register.xml.flat",
+        "source": "com.example.memoledger.app-main-7:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_login_logo.jpg.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/login_logo.jpg"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/layout_activity_manage.xml.flat",
+        "source": "com.example.memoledger.app-main-7:/layout/activity_manage.xml"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/layout_notebook_item_layout.xml.flat",
+        "source": "com.example.memoledger.app-main-7:/layout/notebook_item_layout.xml"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_add2.png.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/add2.png"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_in_shouzhiqk.jpg.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/in_shouzhiqk.jpg"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/layout_activity_changepassword.xml.flat",
+        "source": "com.example.memoledger.app-main-7:/layout/activity_changepassword.xml"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/layout_activity_record.xml.flat",
+        "source": "com.example.memoledger.app-main-7:/layout/activity_record.xml"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_jilu.jpg.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/jilu.jpg"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_back.png.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/back.png"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_save_note2.png.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/save_note2.png"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_chakanjilu.png.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/chakanjilu.png"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/layout_activity_search_record.xml.flat",
+        "source": "com.example.memoledger.app-main-7:/layout/activity_search_record.xml"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.memoledger.app-main-7:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_chakanshouzhi.png.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/chakanshouzhi.png"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_account.png.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/account.png"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/layout_activity_notepad.xml.flat",
+        "source": "com.example.memoledger.app-main-7:/layout/activity_notepad.xml"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/layout_activity_homepage.xml.flat",
+        "source": "com.example.memoledger.app-main-7:/layout/activity_homepage.xml"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_start_logo.png.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/start_logo.png"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_headfile.png.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/headfile.png"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_in_jilu.jpg.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/in_jilu.jpg"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/layout_activity_login.xml.flat",
+        "source": "com.example.memoledger.app-main-7:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_beijin.jpg.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/beijin.jpg"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_jizhang.jpg.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/jizhang.jpg"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_delete2.png.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/delete2.png"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/xml_backup_rules.xml.flat",
+        "source": "com.example.memoledger.app-main-7:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.memoledger.app-merged_res-5:/drawable_zhuce.jpg.flat",
+        "source": "com.example.memoledger.app-main-7:/drawable/zhuce.jpg"
+    }
+]

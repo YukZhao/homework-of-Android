@@ -1,0 +1,166 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.notes"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml
+10
+11    <queries>
+11-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:9:5-16:15
+12        <intent>
+12-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:10:9-12:18
+13            <action android:name="android.intent.action.MAIN" />
+13-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:24:17-69
+13-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:24:25-66
+14        </intent>
+15        <intent>
+15-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:13:9-15:18
+16            <action android:name="android.intent.action.VIEW" />
+16-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:14:13-65
+16-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:14:21-62
+17        </intent>
+18    </queries>
+19
+20    <application
+20-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:5:5-32:19
+21        android:allowBackup="true"
+21-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:6:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.7.0] E:\.gradle\caches\transforms-3\32b22ae24ddd49268bb45350efca99f0\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:7:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:8:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:9:9-43
+28        android:label="@string/app_name"
+28-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:10:9-41
+29        android:supportsRtl="true"
+29-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:11:9-35
+30        android:theme="@style/Theme.Design.Light.NoActionBar" >
+30-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:12:9-62
+31        <activity
+31-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:14:9-16:40
+32            android:name="com.example.notes.ui.AddNote"
+32-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:15:13-39
+33            android:exported="false" />
+33-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:16:13-37
+34        <activity
+34-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:17:9-19:40
+35            android:name="com.example.notes.ui.Register"
+35-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:18:13-40
+36            android:exported="false" />
+36-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:19:13-37
+37        <activity
+37-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:20:9-28:20
+38            android:name="com.example.notes.ui.Login"
+38-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:21:13-37
+39            android:exported="true" >
+39-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:22:13-36
+40            <intent-filter>
+40-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:23:13-27:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:24:17-69
+41-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:24:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:26:17-77
+43-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:26:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:29:9-31:39
+47            android:name="com.example.notes.ui.MainActivity"
+47-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:30:13-44
+48            android:exported="false" />
+48-->E:\AndroidTool\Notes-main\Notes\app\src\main\AndroidManifest.xml:31:13-37
+49        <activity
+49-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:19:9-24:75
+50            android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess"
+50-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:20:13-83
+51            android:configChanges="orientation|keyboardHidden|screenSize"
+51-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:21:13-74
+52            android:exported="false"
+52-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:22:13-37
+53            android:theme="@style/ActivityTranslucent"
+53-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:23:13-55
+54            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+54-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:24:13-72
+55        <activity
+55-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:25:9-31:75
+56            android:name="com.blankj.utilcode.util.UtilsTransActivity"
+56-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:26:13-71
+57            android:configChanges="orientation|keyboardHidden|screenSize"
+57-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:27:13-74
+58            android:exported="false"
+58-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:28:13-37
+59            android:multiprocess="true"
+59-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:29:13-40
+60            android:theme="@style/ActivityTranslucent"
+60-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:30:13-55
+61            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+61-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:31:13-72
+62
+63        <provider
+63-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:33:9-41:20
+64            android:name="com.blankj.utilcode.util.UtilsFileProvider"
+64-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:34:13-70
+65            android:authorities="com.example.notes.utilcode.fileprovider"
+65-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:35:13-73
+66            android:exported="false"
+66-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:36:13-37
+67            android:grantUriPermissions="true" >
+67-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:37:13-47
+68            <meta-data
+68-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:38:13-40:68
+69                android:name="android.support.FILE_PROVIDER_PATHS"
+69-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:39:17-67
+70                android:resource="@xml/util_code_provider_paths" />
+70-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:40:17-65
+71        </provider>
+72
+73        <service
+73-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:43:9-49:19
+74            android:name="com.blankj.utilcode.util.MessengerUtils$ServerService"
+74-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:44:13-81
+75            android:exported="false" >
+75-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:45:13-37
+76            <intent-filter>
+76-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:46:13-48:29
+77                <action android:name="com.example.notes.messenger" />
+77-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:47:17-69
+77-->[com.blankj:utilcodex:1.31.1] E:\.gradle\caches\transforms-3\66cbaa04dd5194861c6e9fc21c0f9501\transformed\utilcodex-1.31.1\AndroidManifest.xml:47:25-66
+78            </intent-filter>
+79        </service>
+80
+81        <provider
+81-->[androidx.emoji2:emoji2:1.0.0] E:\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.emoji2:emoji2:1.0.0] E:\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+83            android:authorities="com.example.notes.androidx-startup"
+83-->[androidx.emoji2:emoji2:1.0.0] E:\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+84            android:exported="false" >
+84-->[androidx.emoji2:emoji2:1.0.0] E:\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+85            <meta-data
+85-->[androidx.emoji2:emoji2:1.0.0] E:\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+86-->[androidx.emoji2:emoji2:1.0.0] E:\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+87                android:value="androidx.startup" />
+87-->[androidx.emoji2:emoji2:1.0.0] E:\.gradle\caches\transforms-3\b9027b92c1482b134488be162c33fb60\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+88            <meta-data
+88-->[androidx.lifecycle:lifecycle-process:2.4.0] E:\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+89-->[androidx.lifecycle:lifecycle-process:2.4.0] E:\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+90                android:value="androidx.startup" />
+90-->[androidx.lifecycle:lifecycle-process:2.4.0] E:\.gradle\caches\transforms-3\2244c9bd04f48de056c1159c637b1b8b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+91        </provider>
+92    </application>
+93
+94</manifest>
