@@ -1,1 +1,1 @@
-This is my homework for my graduate course: Intelligent Mobile Application Development Technology
+This is my homework for my graduate course: Intelligent Mobile Application Development Technology, the homework section referenced [open-source projects](https://github.com/wang-jiayi0111/tallybook_notepad).
